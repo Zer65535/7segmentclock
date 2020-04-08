@@ -81,8 +81,6 @@ lable: {;}
 
 
 void second(){
-  //digitalWrite(10,dot);
-  //dot=!dot;
   j++;
   if(j==59){
     j=0;
@@ -127,7 +125,6 @@ lable: {;}
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 if(i>3){i=0;}
 segment_Num(Num[i]);
 segment_Add(i);
